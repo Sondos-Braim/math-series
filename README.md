@@ -1,1 +1,1 @@
-https://github.com/Sondos-Braim/math-series/pull/1
+https://github.com/Sondos-Braim/math-series/pull/2
