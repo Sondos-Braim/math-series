@@ -4,13 +4,15 @@ def fibonacci(n):
     """
     if n<0: 
         return "Incorrect input"
-    elif n==0: 
-        return 0
-    elif n==1: 
-        return 1
-    else: 
-        return fibonacci(n-1)+fibonacci(n-2) 
-
+    a=0
+    b=1
+    c=0
+    for i in range(0, n):
+        c=a
+        a=b
+        b =c+b
+    return a
+    
 def lucas(n): 
     """
     This function takes in a number and returns a lucas value of it which is the sum of the lucas value of the two nambers before and it uses recursion.
@@ -37,4 +39,5 @@ def sum_series(n,n0=0,n1=1):
     else: 
         return sum_series(n-1)+sum_series(n-2) 
 
-  
+if __name__ == "__main__":
+    print(fibonacci(5))
