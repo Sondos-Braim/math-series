@@ -1,6 +1,6 @@
 def fibonacci(n): 
     """
-    This function takes in a number and returns a fibonacci value of it which is the sum of the fibonacci value of the two nambers before and it uses recursion.
+    This function takes in a number and returns a fibonacci value of it which is the sum of the fibonacci value of the two nambers before and it uses iteration.
     """
     if n<0: 
         return "Incorrect input"
